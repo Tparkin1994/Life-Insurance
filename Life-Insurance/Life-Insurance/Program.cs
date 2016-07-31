@@ -19,10 +19,10 @@ namespace Lifeinsurancequotes
             bool Child = false;
             bool Smoker = false;
 
-            Console.Write("Please enter your Date Of Birth:");
+            Console.Write("Please enter your Age:");
 
             DOB = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"DOB is :{DOB}"); //debug
+            Console.WriteLine($"Age is :{DOB}"); //debug
             Console.Write("Please enter your Gender:");
             string input = Console.ReadLine();
             switch (input.ToLower()) //add error correction
